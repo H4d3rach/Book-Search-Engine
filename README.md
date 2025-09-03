@@ -33,19 +33,6 @@ It consists of a **main server** that distributes search queries to **three work
 ---
 
 ## System Architecture
-[ Client / Browser ]
-│
-▼
-[ Main Server ]
-- /status
-- /procesar_datos
-- /monitoreo
-│
-├──> [ Worker 1 @ GCP ] /propuesta3 , /monitoreo
-├──> [ Worker 2 @ GCP ] /propuesta3 , /monitoreo
-└──> [ Worker 3 @ GCP ] /propuesta3 , /monitoreo
-
-
 1. The client sends a search query (`/procesar_datos`).  
 2. The main server distributes the query to 3 workers.  
 3. Each worker loads its local **LIBROS_TXT** folder, calculates TF-IDF, and sends results back.  
