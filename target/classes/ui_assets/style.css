@@ -1,0 +1,98 @@
+html{
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #faf9f6;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;;
+}
+header{
+  flex: 0 0 auto;
+  background-color: #F40B0B;
+  color: #F40B0B;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+footer{
+  flex: 0 0 auto;
+  background-color: #F40B0B;
+  text-align: right;
+  color: white;
+  margin-top: 20px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+h1{
+  font-family: 'Amatic SC', cursive;
+  margin-bottom: 0px;
+}
+h2{
+  font-family: 'Amatic SC', cursive;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #F40B0B;
+}
+hr{
+  width: 80%;
+  height: 1px;
+  background-color: black;
+}
+#layout {
+  flex: 1 0 auto;
+  background: #EEE;
+  border-radius: 4px;
+  padding: 20px 5px 50px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 600px;
+}
+
+input {
+  height: 25px;
+}
+
+#search_text {
+  width: 500px;
+  background: silver;
+  border: 1px solid #393939;
+  border-radius: 5px 5px 5px 5px;
+  color: #393939;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f1618;
+}
+
+button {
+  background: #0f1618;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
+#results {
+  display: none;
+  white-space: pre-wrap;
+}
+
+#results table {
+  margin-left:auto;
+  margin-right:auto;
+}
+img {
+    width: 150px; 
+    height: auto; 
+    border: 1px solid #ddd; 
+}
+td{
+  padding: 10px;
+  text-align: center;
+}
